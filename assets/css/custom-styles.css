@@ -1,0 +1,29 @@
+.profile-photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 20%;
+  border: 3px solid #EAEAEA;
+  flex-shrink: 0;
+  margin: 0;
+}
+
+.intro-flex {
+  display: flex;
+  align-items: center;
+  gap: 1.75rem;
+  margin: 0.5rem 0 1.75rem;
+  text-align: left;
+}
+
+.intro-flex .intro-text p {
+  margin: 0;
+}
+
+@media (max-width: 576px) {
+  .intro-flex {
+    flex-direction: column;
+    text-align: center;
+  }
+}
