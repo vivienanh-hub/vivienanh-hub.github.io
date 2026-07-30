@@ -50,3 +50,25 @@ h2 {
     margin: 0 auto 1.5rem;
   }
 }
+
+.bring-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin: 1rem 0 2rem;
+}
+
+.bring-card {
+  margin: 0;
+  padding: 1.1rem 1.3rem;
+  background: #F7F7F7;
+  border: 1px solid #EAEAEA;
+  border-radius: 8px;
+  line-height: 1.5;
+}
+
+@media (max-width: 700px) {
+  .bring-grid {
+    grid-template-columns: 1fr;
+  }
+}

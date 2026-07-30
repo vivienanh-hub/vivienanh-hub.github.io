@@ -14,14 +14,24 @@ Vivian started out in Agile delivery and business analysis in 2007, moving into 
 
 ## What I bring
 
+<div class="bring-grid" markdown="1">
+
 **AI Products.** Enterprise adoption of AI-powered products — translating what a model can and can't reliably do into product decisions, quantifying the value in measured effort savings, and designing the checks that make AI output trustworthy enough to ship.
+{: .bring-card}
 
 **Monetization & Revenue Growth.** Tiered subscriptions, partner programs, seller segmentation — finding the revenue levers and building the case to pull them.
+{: .bring-card}
 
 **Marketplace Products.** Buyer-seller dynamics, inventory workflows, discovery mechanics — built from scratch and evolved across automotive, classifieds, B2B.
+{: .bring-card}
 
 **Enterprise & B2B.** Long sales cycles, procurement-level ROI framing, cross-functional deal support.
+{: .bring-card}
 
 **Go-to-Market Execution.** Strategy without execution is just a slide — led launches from concept through post-launch iteration.
+{: .bring-card}
 
 **Team Leadership.** Led teams of PMs, analysts, and designers — alignment, capability, and focus on outcomes.
+{: .bring-card}
+
+</div>
