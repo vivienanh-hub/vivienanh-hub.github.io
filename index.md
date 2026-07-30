@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Van-Anh NGUYEN
+title: Van-Anh Nguyen
 subtitle: Product Manager | Marketplace | B2B SaaS | AI Products
 ---
 
 ![Van Anh Nguyen](/assets/img/VA.jpg){: .profile-photo}
 
-Vivian is a product manager working across marketplaces and B2B software in Southeast Asia. The work covers the full arc of a product — from first concept, through launch, to running as a live commercial business — and includes leading and mentoring product managers, analysts and designers.
+Van-Anh Nguyen — known as Vivian — is a product manager working across marketplaces and B2B software in Southeast Asia. The work covers the full arc of a product — from first concept, through launch, to running as a live commercial business — and includes leading and mentoring product managers, analysts and designers.
 
 Vivian started out in Agile delivery and business analysis in 2007, moving into product management in 2013 and later adding an MSc in Business Information Management from La Trobe University in Melbourne. It's a practical combination: working through implementation detail with engineers, and building the commercial case for the same decision.
 

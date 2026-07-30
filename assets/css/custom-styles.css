@@ -1,3 +1,8 @@
+/* Theme default is 1.125rem (18px); bump body text up slightly. */
+body {
+  font-size: 1.2rem;
+}
+
 /* Beautiful Jekyll's .container-md caps at max-width:720px past 768px
    viewport (unlike plain .container, it never widens further at
    lg/xl), and the inner column then takes only 66-83% of that --
