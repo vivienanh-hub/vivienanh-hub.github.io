@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Van Anh Nguyen (Vivian Nguyen)
+title: Van-Anh NGUYEN
 subtitle: Product Manager | Marketplace | B2B SaaS | AI Products
 ---
 
