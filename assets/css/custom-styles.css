@@ -1,3 +1,28 @@
+/* Beautiful Jekyll's .container-md caps at max-width:720px past 768px
+   viewport (unlike plain .container, it never widens further at
+   lg/xl), and the inner column then takes only 66-83% of that --
+   roughly 480-600px of actual content width on any screen size.
+   Widen both so the page doesn't feel cramped on desktop. */
+@media (min-width: 768px) {
+  .container-md {
+    max-width: 1100px;
+  }
+}
+@media (min-width: 992px) {
+  main .col-lg-10.offset-lg-1 {
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%;
+    margin-left: 4.166667%;
+  }
+}
+@media (min-width: 1200px) {
+  main .col-xl-8.offset-xl-2 {
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%;
+    margin-left: 8.333333%;
+  }
+}
+
 .profile-photo {
   width: 200px;
   height: 200px;
