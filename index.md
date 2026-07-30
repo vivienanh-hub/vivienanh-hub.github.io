@@ -25,13 +25,10 @@ Vivian started out in Agile delivery and business analysis in 2007, moving into 
 **Marketplace Products.** Buyer-seller dynamics, inventory workflows, discovery mechanics — built from scratch and evolved across automotive, classifieds, B2B.
 {: .bring-card}
 
-**Enterprise & B2B.** Long sales cycles, procurement-level ROI framing, cross-functional deal support.
+**Enterprise & B2B.** Product demos and onboarding materials that get non-technical stakeholders bought in, a partner programme taken from paperwork to live commercial operation within a month, and enablement delivered across multiple markets and teams at once.
 {: .bring-card}
 
 **Go-to-Market Execution.** Strategy without execution is just a slide — led launches from concept through post-launch iteration.
-{: .bring-card}
-
-**Team Leadership.** Led teams of PMs, analysts, and designers — alignment, capability, and focus on outcomes.
 {: .bring-card}
 
 </div>
