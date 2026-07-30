@@ -5,32 +5,18 @@
   object-fit: cover;
   object-position: center 20%;
   border: 3px solid #EAEAEA;
-  display: block;
+  float: left;
+  margin: 0 1.75rem 1rem 0;
 }
 
-.intro-flex {
-  display: flex;
-  align-items: center;
-  gap: 1.75rem;
-  margin: 0.5rem 0 1.75rem;
-  text-align: left;
-}
-
-.intro-flex p {
-  margin: 0;
-}
-
-.intro-photo-wrap {
-  flex-shrink: 0;
-}
-
-.intro-text {
-  flex: 1;
+h2 {
+  clear: both;
 }
 
 @media (max-width: 576px) {
-  .intro-flex {
-    flex-direction: column;
-    text-align: center;
+  .profile-photo {
+    float: none;
+    display: block;
+    margin: 0 auto 1.5rem;
   }
 }
