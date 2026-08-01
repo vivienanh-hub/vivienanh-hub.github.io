@@ -28,7 +28,7 @@ Vivian started out in Agile delivery and business analysis in 2007, moving into 
 **Enterprise & B2B.** Product demos and onboarding materials that get non-technical stakeholders bought in, a partner programme taken from paperwork to live commercial operation within a month, and enablement delivered across multiple markets and teams at once.
 {: .bring-card}
 
-**Go-to-Market Execution.** Strategy without execution is just a slide — led launches from concept through post-launch iteration.
+**Go-to-Market Execution.** Connecting buyer and seller insight to design, engineering, marketing and sales, so a launch reads as a category move — not just a feature release.
 {: .bring-card}
 
 </div>
