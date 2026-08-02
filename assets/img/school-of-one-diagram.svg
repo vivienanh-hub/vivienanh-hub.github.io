@@ -1,59 +1,102 @@
-<svg viewBox="0 0 920 580" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sooTitle sooDesc" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+<svg viewBox="0 0 920 620" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sooTitle sooDesc" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
   <title id="sooTitle">How school-of-one runs</title>
   <desc id="sooDesc">A monthly horizon scan feeds the curriculum; curriculum, exams, and calibration form a repeating loop that feeds back into the next month's plan; a quarterly goal review checks the whole loop from above; Sheldon and Snape run the system day to day.</desc>
 
   <defs>
+    <filter id="cardShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1a1a1a" flood-opacity="0.10"/>
+    </filter>
     <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
       <path d="M0,0 L10,5 L0,10 z" fill="#008AFF"/>
     </marker>
-    <marker id="arrowGrey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#9a9a9a"/>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#E8930A"/>
+    </marker>
+    <marker id="arrowPlum" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8B5CF6"/>
     </marker>
   </defs>
 
-  <!-- Goal review (top) -->
-  <rect x="360" y="34" width="200" height="72" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
-  <text x="460" y="64" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">GOAL REVIEW</text>
-  <text x="460" y="86" text-anchor="middle" font-size="12.5" fill="#6b6b6b">quarterly — still pointed at the goal?</text>
-  <line x1="460" y1="106" x2="460" y2="186" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrowGrey)"/>
+  <!-- ===== connectors (drawn first, under the cards) ===== -->
 
-  <!-- Horizon scan (top left) -->
-  <rect x="20" y="34" width="220" height="72" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
-  <text x="130" y="64" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">HORIZON SCAN</text>
-  <text x="130" y="86" text-anchor="middle" font-size="12.5" fill="#6b6b6b">monthly — outward field scan</text>
-  <line x1="150" y1="106" x2="168" y2="186" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrowGrey)"/>
+  <!-- horizon scan -> curriculum -->
+  <path d="M130,132 Q108,175 165,206" fill="none" stroke="#E8930A" stroke-width="1.75" marker-end="url(#arrowAmber)"/>
+  <!-- goal review -> exams -->
+  <path d="M460,132 Q460,170 460,206" fill="none" stroke="#E8930A" stroke-width="1.75" marker-end="url(#arrowAmber)"/>
+  <!-- core loop -->
+  <line x1="282" y1="260" x2="346" y2="260" stroke="#008AFF" stroke-width="2.5" marker-end="url(#arrowBlue)"/>
+  <line x1="572" y1="260" x2="636" y2="260" stroke="#008AFF" stroke-width="2.5" marker-end="url(#arrowBlue)"/>
+  <path d="M 750,312 C 750,436 170,436 170,312" fill="none" stroke="#008AFF" stroke-width="2.5" marker-end="url(#arrowBlue)"/>
+  <text x="460" y="464" text-anchor="middle" font-size="12.5" fill="#767676">feeds back into next month's plan</text>
+  <!-- sheldon -> curriculum/exams -->
+  <path d="M280,488 Q300,400 322,314" fill="none" stroke="#8B5CF6" stroke-width="1.75" marker-end="url(#arrowPlum)"/>
+  <!-- snape -> goal review -->
+  <path d="M640,488 Q610,300 560,134" fill="none" stroke="#8B5CF6" stroke-width="1.75" marker-end="url(#arrowPlum)"/>
 
-  <!-- Main loop row -->
-  <rect x="60" y="190" width="220" height="90" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
-  <text x="170" y="228" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">CURRICULUM</text>
-  <text x="170" y="248" text-anchor="middle" font-size="12.5" fill="#6b6b6b">plan + learning log</text>
+  <text x="460" y="500" text-anchor="middle" font-size="12" font-weight="600" fill="#9a9a9a" letter-spacing="0.5">WHO RUNS IT</text>
 
-  <rect x="350" y="190" width="220" height="90" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
-  <text x="460" y="228" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">EXAMS</text>
-  <text x="460" y="248" text-anchor="middle" font-size="12.5" fill="#6b6b6b">Socratic testing</text>
+  <!-- ===== cards ===== -->
 
-  <rect x="640" y="190" width="220" height="90" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
-  <text x="750" y="228" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">CALIBRATE</text>
-  <text x="750" y="248" text-anchor="middle" font-size="12.5" fill="#6b6b6b">system rereads itself</text>
+  <!-- Horizon scan -->
+  <rect x="20" y="40" width="220" height="92" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
+  <circle cx="130" cy="66" r="15" fill="#FFF3DF"/>
+  <g stroke="#E8930A" fill="none" stroke-width="2" stroke-linecap="round">
+    <circle cx="128" cy="64" r="5" fill="none"/>
+    <line x1="132" y1="68" x2="137" y2="73"/>
+  </g>
+  <text x="130" y="97" text-anchor="middle" font-size="15.5" font-weight="600" fill="#2b2b2b">Horizon scan</text>
+  <text x="130" y="116" text-anchor="middle" font-size="12" fill="#767676">monthly outward field scan</text>
 
-  <line x1="282" y1="235" x2="346" y2="235" stroke="#008AFF" stroke-width="2" marker-end="url(#arrowBlue)"/>
-  <line x1="572" y1="235" x2="636" y2="235" stroke="#008AFF" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <!-- Goal review -->
+  <rect x="350" y="40" width="220" height="92" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
+  <circle cx="460" cy="66" r="15" fill="#FFF3DF"/>
+  <g stroke="#E8930A" fill="none" stroke-width="1.6">
+    <circle cx="460" cy="66" r="8"/>
+    <circle cx="460" cy="66" r="4.5"/>
+  </g>
+  <circle cx="460" cy="66" r="1.5" fill="#E8930A"/>
+  <text x="460" y="97" text-anchor="middle" font-size="15.5" font-weight="600" fill="#2b2b2b">Goal review</text>
+  <text x="460" y="116" text-anchor="middle" font-size="12" fill="#767676">quarterly — still on target?</text>
 
-  <!-- Feedback loop -->
-  <path d="M 750,282 C 750,400 170,400 170,282" fill="none" stroke="#008AFF" stroke-width="2" marker-end="url(#arrowBlue)"/>
-  <text x="460" y="410" text-anchor="middle" font-size="12.5" fill="#6b6b6b">feeds back into next month's plan</text>
+  <!-- Curriculum -->
+  <rect x="60" y="210" width="220" height="100" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
+  <circle cx="170" cy="238" r="16" fill="#E8F3FF"/>
+  <g stroke="#008AFF" stroke-width="2" stroke-linecap="round">
+    <line x1="163" y1="233" x2="177" y2="233"/>
+    <line x1="163" y1="238" x2="174" y2="238"/>
+    <line x1="163" y1="243" x2="176" y2="243"/>
+  </g>
+  <text x="170" y="272" text-anchor="middle" font-size="15.5" font-weight="600" fill="#2b2b2b">Curriculum</text>
+  <text x="170" y="291" text-anchor="middle" font-size="12" fill="#767676">plan + learning log</text>
 
-  <!-- Who runs it -->
-  <text x="460" y="452" text-anchor="middle" font-size="13" font-weight="600" fill="#2b2b2b" letter-spacing="0.5">WHO RUNS IT</text>
+  <!-- Exams -->
+  <rect x="350" y="210" width="220" height="100" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
+  <circle cx="460" cy="238" r="16" fill="#E8F3FF"/>
+  <polyline points="453,238 458,243 468,231" fill="none" stroke="#008AFF" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="460" y="272" text-anchor="middle" font-size="15.5" font-weight="600" fill="#2b2b2b">Exams</text>
+  <text x="460" y="291" text-anchor="middle" font-size="12" fill="#767676">Socratic testing</text>
 
-  <rect x="150" y="466" width="260" height="80" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
-  <text x="280" y="498" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">SHELDON</text>
-  <text x="280" y="518" text-anchor="middle" font-size="12.5" fill="#6b6b6b">structured inquiry, routing</text>
+  <!-- Calibrate -->
+  <rect x="640" y="210" width="220" height="100" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
+  <circle cx="750" cy="238" r="16" fill="#E8F3FF"/>
+  <path d="M750,230 C744,230 740,234 740,238 C740,244 746,248 752,247 C756,246.3 758.5,244 759.5,241" fill="none" stroke="#008AFF" stroke-width="2" stroke-linecap="round"/>
+  <path d="M756,240 L759.8,241.3 L761,237.4 Z" fill="#008AFF"/>
+  <text x="750" y="272" text-anchor="middle" font-size="15.5" font-weight="600" fill="#2b2b2b">Calibrate</text>
+  <text x="750" y="291" text-anchor="middle" font-size="12" fill="#767676">system rereads itself</text>
 
-  <rect x="510" y="466" width="260" height="80" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
-  <text x="640" y="498" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">SNAPE</text>
-  <text x="640" y="518" text-anchor="middle" font-size="12.5" fill="#6b6b6b">accountability, goal drift</text>
+  <!-- Sheldon -->
+  <rect x="150" y="514" width="260" height="86" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
+  <circle cx="280" cy="540" r="16" fill="#F1EBFC"/>
+  <circle cx="280" cy="536" r="4" fill="#8B5CF6"/>
+  <path d="M270,548 C270,541 290,541 290,548 Z" fill="#8B5CF6"/>
+  <text x="280" y="573" text-anchor="middle" font-size="15.5" font-weight="600" fill="#2b2b2b">Sheldon</text>
+  <text x="280" y="591" text-anchor="middle" font-size="12" fill="#767676">structured inquiry, routing</text>
 
-  <line x1="300" y1="466" x2="320" y2="288" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrowGrey)"/>
-  <line x1="640" y1="466" x2="558" y2="108" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrowGrey)"/>
+  <!-- Snape -->
+  <rect x="510" y="514" width="260" height="86" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
+  <circle cx="640" cy="540" r="16" fill="#F1EBFC"/>
+  <circle cx="640" cy="536" r="4" fill="#8B5CF6"/>
+  <path d="M630,548 C630,541 650,541 650,548 Z" fill="#8B5CF6"/>
+  <text x="640" y="573" text-anchor="middle" font-size="15.5" font-weight="600" fill="#2b2b2b">Snape</text>
+  <text x="640" y="591" text-anchor="middle" font-size="12" fill="#767676">accountability, goal drift</text>
 </svg>
