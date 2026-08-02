@@ -56,6 +56,18 @@ The prerequisite is that you take your own learning seriously enough to design a
 
 ---
 
+## How you'd actually use it
+
+Three steps, roughly:
+
+1. **Fork it.** [school-of-one](https://github.com/vivienanh-hub/school-of-one) is the public skill library — copy the `.claude/commands/` folder into your own workspace repo, or just fork the whole thing and work inside it.
+2. **Tell it who you are.** Fill in a `CLAUDE.md` and a short goal file — your current target, your three-year direction, the life the career is meant to fund. Every skill reads this before it answers, so this file is what makes the advice specific to you instead of generic.
+3. **Start with `/sheldon`.** Ask it something you're actually stuck on — it routes you to `/learn`, `/exam`, or wherever the real work is. Once you're in motion, the rest runs on its own schedule: `/horizon-scan` monthly, `/goal-review` quarterly, `/calibrate` rereading your patterns in between.
+
+Full setup — folder structure, GitHub labels, the exact files to fill in — is in [INSTALL.md](https://github.com/vivienanh-hub/school-of-one/blob/main/INSTALL.md).
+
+---
+
 ## The public layer
 
 The private repo holds my personal data — memory files, session journals, career materials. This is the system design, stripped of personal content and forkable.
