@@ -101,10 +101,10 @@ Her first `/horizon-scan` flags that job descriptions in her target band now ask
 Four straight weeks show a pattern: topics pass their first exam, then come back failed on the re-test a few weeks later. `/calibrate` reads that as recognition, not retention, and shortens the default first re-test window from three weeks to ten days — instead of letting the same gap resurface every month unnamed.
 
 **Month 3, later — the first mock loop.**
-`/interview` runs a scored round against a real posting. The score comes back lower than she expected — not for a wrong answer, but for one that named the right approach and stopped there: no metric, no threshold, nothing about what she'd do if the number came back bad. Fluent and unfalsifiable. Better to find that here than after a fourth application goes quiet. `/portfolio-capture` files the eval work she has actually done as a proof point, so the next CV pass has something concrete to point at.
+`/interview` runs a scored round — the test of whether she can defend her judgment out loud, under time, to someone unimpressed. The score comes back lower than she expected: not a wrong answer, but one that named the right approach and stopped there — no metric, no threshold, nothing about what she'd do if the number came back bad. Fluent and unfalsifiable. That's a different gap from anything `/exam` was measuring, and it only surfaces when something makes her say it out loud. `/portfolio-capture` files the eval work she has actually done as a proof point, so the capability leaves a record instead of a memory.
 
 **End of quarter — Snape.**
-`/goal-review` asks the question she's been avoiding: has she actually applied to anything, or just kept studying? The answer reshapes her Now Goal for next quarter — less reading, more applying.
+`/goal-review` asks the question she's been avoiding: has any of this been spent on something real, or has she just kept studying? The answer reshapes her goal for next quarter — less intake, more output.
 
 One person, one quarter, one full turn of the loop in the diagram above.
 
