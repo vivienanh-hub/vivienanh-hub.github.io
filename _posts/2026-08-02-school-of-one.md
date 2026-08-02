@@ -86,14 +86,14 @@ Her goal file says: *Now Goal — AI PM role, fintech or B2B SaaS, within 12 mon
 **Week 2 — the curriculum starts filling in.**
 `/learn RAG and vector search`, then `/learn LLM evaluation design`. Each session logs a takeaway, not just a summary. Two weeks in, she has a working knowledge base instead of a stack of open browser tabs.
 
-**Week 3 — the first exam.**
-`/exam RAG` — no notes, no hiding behind "I read about it." She fails the first attempt and passes the second. The failed attempt turns out to be the more useful entry in her learning log.
+**Week 3 — the first exams, and the schedule starts tracking her, not just the topic.**
+`/exam RAG` — no notes, no hiding behind "I read about it." She fails the first attempt and passes the second; that pass pushes RAG's re-test out three weeks. Same week, `/exam LLM evaluation design` — she fails it outright, and that topic's re-test pulls in to about a week. RAG doesn't move. Two topics, two different signals, tracked separately instead of one vague "how's it going" feeling.
 
 **Month 2 — the outside world shows up.**
-Her first `/horizon-scan` flags that two VP-level job descriptions now require "designing LLM evaluations," not just "AI-fluent." That signal routes straight into her learning plan — eval design moves from optional to priority.
+Her first `/horizon-scan` flags that two VP-level job descriptions now require "designing LLM evaluations," not just "AI-fluent." That signal routes straight into her learning plan — eval design moves from optional to priority, ahead of the topics that were already scheduled.
 
 **Month 3 — the system checks itself.**
-`/calibrate` notices a pattern: she passes exams on the first attempt but skips the spaced-retrieval reps before they're due. The exam skill adjusts, scheduling reps earlier so they don't slide.
+Four straight weeks show a pattern: topics pass their first exam, then come back "fired" — failed — on the re-test a few weeks later. `/calibrate` reads that as recognition, not retention, and shortens the default first re-test window from three weeks to ten days, instead of letting the same gap resurface every month unnamed.
 
 **End of quarter — Snape.**
 `/goal-review` asks the question she's been avoiding: has she actually applied to anything, or just kept studying? The answer reshapes her Now Goal for next quarter — less reading, more applying.
