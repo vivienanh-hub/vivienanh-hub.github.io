@@ -68,6 +68,32 @@ Full setup — folder structure, GitHub labels, the exact files to fill in — i
 
 ---
 
+## A worked example: becoming an AI PM
+
+Mina is a product manager with five years in fintech. She wants to move into an AI PM role within the year and doesn't know where to start.
+
+**Week 1 — she forks the repo and answers one hard question.**
+Her goal file says: *Now Goal — AI PM role, fintech or B2B SaaS, within 12 months.* Then she opens with `/sheldon`: *"I want to become an AI PM. Where do I actually start?"* Sheldon doesn't hand her a reading list — he asks what she's already done with AI at work. Turns out: nothing, she's only used ChatGPT to draft emails. That becomes the real starting point, not the job title.
+
+**Week 2 — the curriculum starts filling in.**
+`/learn RAG and vector search`, then `/learn LLM evaluation design`. Each session logs a takeaway, not just a summary. Two weeks in, she has a working knowledge base instead of a stack of open browser tabs.
+
+**Week 3 — the first exam.**
+`/exam RAG` — no notes, no hiding behind "I read about it." She fails the first attempt and passes the second. The failed attempt turns out to be the more useful entry in her learning log.
+
+**Month 2 — the outside world shows up.**
+Her first `/horizon-scan` flags that two VP-level job descriptions now require "designing LLM evaluations," not just "AI-fluent." That signal routes straight into her learning plan — eval design moves from optional to priority.
+
+**Month 3 — the system checks itself.**
+`/calibrate` notices a pattern: she passes exams on the first attempt but skips the spaced-retrieval reps before they're due. The exam skill adjusts, scheduling reps earlier so they don't slide.
+
+**End of quarter — Snape.**
+`/goal-review` asks the question she's been avoiding: has she actually applied to anything, or just kept studying? The answer reshapes her Now Goal for next quarter — less reading, more applying.
+
+That's the loop from the diagram above, run by one person, over one real quarter.
+
+---
+
 ## The public layer
 
 The private repo holds my personal data — memory files, session journals, career materials. This is the system design, stripped of personal content and forkable.
