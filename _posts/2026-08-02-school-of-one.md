@@ -66,9 +66,9 @@ Every quarter, `/goal-review` — led by Snape — asks whether your north star 
 
 Any serious learner in a fast-moving field. I built it for PM work and AI product management specifically, but the architecture isn't domain-locked. The tutors, exam engine, pattern memory, and curriculum tracker apply to anything you're trying to learn at depth — not just consume.
 
-Be clear about the real prerequisites, though. You need a paid Claude plan — Claude Code isn't free — plus enough comfort with GitHub and a terminal to clone a repo, edit markdown, and (optionally) set up a cron job. Budget an hour a week for the review and a couple of exams, half an hour a month for the scan. It isn't heavy, but it isn't zero, and a system you run twice and abandon is worse than no system, because now you have a file telling you so.
+It runs on Claude Code, so you'll want to be comfortable enough with GitHub to clone a repo and edit a markdown file. Time-wise, think an hour a week for the review and a couple of exams, half an hour a month for the scan.
 
-The other prerequisite is that you take your own learning seriously enough to design a system for it. Most people don't. That's fine. But if you've ever felt that you're working hard and still not retaining, still not progressing, still not sure whether you're pointed in the right direction — this is what I built instead of accepting that.
+The real prerequisite is that you take your own learning seriously enough to design a system for it. Most people don't. That's fine. But if you've ever felt that you're working hard and still not retaining, still not progressing, still not sure whether you're pointed in the right direction — this is what I built instead of accepting that.
 
 ---
 
