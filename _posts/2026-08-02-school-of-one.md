@@ -37,8 +37,11 @@ A learning plan sets the knowledge domains. A structured log records every sessi
 **The exams.**
 `/exam` is a Socratic knowledge test. It won't give you the answer. It will probe until it finds the edge of what you actually know versus what you think you know. The distinction matters.
 
+**The pattern feedback.**
+This is the part that actually makes it a school instead of a pile of tools: `/weekly-review` tracks every exam result against a Spaced Retrieval Schedule. Pass, and the re-test date pushes out two or three weeks. Miss, and it pulls back in to about a week. Nothing decays quietly — the schedule itself is the evidence of what you actually know versus what you passed once and forgot.
+
 **The pattern layer.**
-The system builds a memory of you over time. It knows your learning style, your knowledge gaps, your recurring blind spots. A monthly `/calibrate` run reads everything and updates the system itself — adjusting how the tutors respond, what the curriculum should prioritise, where the gaps have opened up.
+Zoom out from any single topic and the system builds a memory of you over time — your learning style, your recurring blind spots, where you tend to skip the hard part. A monthly `/calibrate` run reads everything and updates the system itself — adjusting how the tutors respond, what the curriculum should prioritise, where the gaps have opened up.
 
 **The horizon scan.**
 Once a month, `/horizon-scan` looks outward — what's moving in the field, what's noise, what warrants real attention. The output is Act / Watch / Noise triage. You stay current without drowning in feeds.
