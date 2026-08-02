@@ -11,6 +11,14 @@ Not a course. Not a Notion dashboard. A school — one that keeps a record of wh
 
 This is what I wanted. I couldn't find it, so I built it.
 
+Concretely, here's what it does that a course or a reading list doesn't:
+
+- **You know what you actually know.** Every topic you've studied carries a status and a re-test date. Proved, or only read about — by name, not by feeling.
+- **Nothing decays quietly.** Pass a topic and it comes back weeks later, cold. Miss it and it comes back sooner. Forgetting becomes visible instead of silent.
+- **Nothing stays theoretical.** A topic doesn't count as learned until it's been spent on a real product decision.
+- **The field arrives filtered.** Once a month, sorted into Act / Watch / Noise — instead of you swimming in newsletters.
+- **The system fixes itself.** It watches how you actually learn and rewrites its own rules when they stop working.
+
 ---
 
 ## The problem with self-directed learning
@@ -27,16 +35,16 @@ The system lives in a GitHub repository. It runs on [Claude Code](https://claude
 
 ![How school-of-one runs: a monthly horizon scan feeds the curriculum; curriculum, exams, and calibration form a repeating loop that feeds back into next month's plan; a quarterly goal review checks the whole loop from above; Sheldon and Snape run it day to day.](/assets/img/school-of-one-diagram.svg)
 
-**The tutors.**
+**The tutors — they won't let you stay vague.**
 `/sheldon` is the head of the school — a systematic thinker who facilitates structured inquiry, routes you to the right learning mode, and won't let you stay comfortable with vague thinking.
 `/snape` is the demanding life coach. He asks the questions you've been avoiding — about your goals, your real target, whether the work you're doing actually serves the direction you said you wanted to go.
 
 The characters aren't decoration. A named character holds a stance the model won't drift out of. "Be rigorous with me" degrades into agreeableness after four exchanges; Snape doesn't, because every response has to stay in character, and the character's whole job is to be unimpressed.
 
-**The curriculum.**
+**The curriculum — a receipt, not a reading list.**
 A learning plan sets the knowledge domains. A structured log records every session: source, takeaway, what I applied it to. Not a reading list — a receipt of actual learning.
 
-**The exams.**
+**The exams — they find the edge of what you actually know.**
 `/exam` is a Socratic knowledge test. It won't give you the answer. It will probe until it finds the edge of what you actually know versus what you think you know. The distinction matters.
 
 **But you're grading yourself.**
@@ -48,16 +56,16 @@ The verdict is produced by a separate judge sub-agent, not by the tutor running 
 
 Where it stops working: nothing physically forces you to run `/exam` at all. That's what the automation layer is for — a cron job files the issue and a watcher runs the skill headlessly, so the exam shows up whether or not you were in the mood. But if you decide to ignore it, you can. The honest claim isn't that cheating is impossible. It's that cheating requires a deliberate act you can watch yourself commit, and it leaves a record.
 
-**The pattern feedback.**
+**The schedule — nothing decays quietly.**
 This is the part that makes it a school instead of a pile of tools: `/weekly-review` tracks every exam result against a Spaced Retrieval Schedule. Pass, and the re-test date pushes out two or three weeks. Miss, and it pulls back in to about a week. Every topic carries its own date, so a strong week on one subject can't paper over a weak one on another. Nothing decays quietly — the schedule itself is the evidence of what you actually know versus what you passed once and forgot.
 
-**The pattern layer.**
+**The pattern layer — the system rewrites its own rules.**
 Zoom out from any single topic and the system builds a memory of you over time — your learning style, your recurring blind spots, where you tend to skip the hard part. A monthly `/calibrate` run reads everything and updates the system itself — adjusting how the tutors respond, what the curriculum should prioritise, where the gaps have opened up.
 
-**The horizon scan.**
-Once a month, `/horizon-scan` looks outward — what's moving in the field, what's noise, what warrants real attention. The output is Act / Watch / Noise triage. You stay current without drowning in feeds.
+**The horizon scan — the field, filtered, once a month.**
+`/horizon-scan` looks outward — what's moving in the field, what's noise, what warrants real attention. The output is Act / Watch / Noise triage. You stay current without drowning in feeds.
 
-**The goal review.**
+**The goal review — someone asks if you've drifted.**
 Every quarter, `/goal-review` — led by Snape — asks whether your north star has drifted, whether the work you're doing reflects what you said you wanted, and whether the targets need to change. Schools have graduation requirements. This is the checkpoint.
 
 ---
@@ -107,7 +115,7 @@ One person, one quarter, one full turn of the loop in the diagram above.
 
 ---
 
-## The public layer
+## Get the repo
 
 The private repo holds my personal data — memory files, session journals, career materials. This is the system design, stripped of personal content and forkable.
 
