@@ -95,7 +95,7 @@ Her goal file says: *Now Goal — AI PM role, fintech or B2B SaaS, within 12 mon
 `/exam RAG` — no notes, no hiding behind "I read about it." She fails the first attempt and passes the second; that pass pushes RAG's re-test out three weeks. Same week, `/exam LLM evaluation design` — she fails it outright, and that topic's re-test pulls in to about a week. RAG doesn't move, because RAG isn't the shaky one. Two topics, two different signals, tracked separately instead of one vague "how's it going" feeling.
 
 **Month 2 — the outside world shows up.**
-Her first `/horizon-scan` flags that job descriptions in her target band now ask for "designing LLM evaluations," not just "AI-fluent." That routes straight into her learning plan — eval design moves from optional to priority. Then `/cv-job-match` runs her CV against three of those postings. It doesn't rewrite anything; it names what they ask for that her CV can't yet evidence. Between the two, the curriculum stops being a topic list and becomes a gap list.
+Her first `/horizon-scan` flags that job descriptions in her target band now ask for "designing LLM evaluations," not just "AI-fluent." That routes straight into her learning plan — eval design moves from optional to priority, ahead of topics that were already scheduled. The curriculum stops being a topic list and starts being a gap list.
 
 **Month 3 — the system checks itself.**
 Four straight weeks show a pattern: topics pass their first exam, then come back failed on the re-test a few weeks later. `/calibrate` reads that as recognition, not retention, and shortens the default first re-test window from three weeks to ten days — instead of letting the same gap resurface every month unnamed.
