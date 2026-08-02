@@ -1,0 +1,59 @@
+<svg viewBox="0 0 920 580" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sooTitle sooDesc" font-family="-apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif">
+  <title id="sooTitle">How school-of-one runs</title>
+  <desc id="sooDesc">A monthly horizon scan feeds the curriculum; curriculum, exams, and calibration form a repeating loop that feeds back into the next month's plan; a quarterly goal review checks the whole loop from above; Sheldon and Snape run the system day to day.</desc>
+
+  <defs>
+    <marker id="arrowBlue" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#008AFF"/>
+    </marker>
+    <marker id="arrowGrey" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9a9a9a"/>
+    </marker>
+  </defs>
+
+  <!-- Goal review (top) -->
+  <rect x="360" y="34" width="200" height="72" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
+  <text x="460" y="64" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">GOAL REVIEW</text>
+  <text x="460" y="86" text-anchor="middle" font-size="12.5" fill="#6b6b6b">quarterly — still pointed at the goal?</text>
+  <line x1="460" y1="106" x2="460" y2="186" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrowGrey)"/>
+
+  <!-- Horizon scan (top left) -->
+  <rect x="20" y="34" width="220" height="72" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
+  <text x="130" y="64" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">HORIZON SCAN</text>
+  <text x="130" y="86" text-anchor="middle" font-size="12.5" fill="#6b6b6b">monthly — outward field scan</text>
+  <line x1="150" y1="106" x2="168" y2="186" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrowGrey)"/>
+
+  <!-- Main loop row -->
+  <rect x="60" y="190" width="220" height="90" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
+  <text x="170" y="228" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">CURRICULUM</text>
+  <text x="170" y="248" text-anchor="middle" font-size="12.5" fill="#6b6b6b">plan + learning log</text>
+
+  <rect x="350" y="190" width="220" height="90" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
+  <text x="460" y="228" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">EXAMS</text>
+  <text x="460" y="248" text-anchor="middle" font-size="12.5" fill="#6b6b6b">Socratic testing</text>
+
+  <rect x="640" y="190" width="220" height="90" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
+  <text x="750" y="228" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">CALIBRATE</text>
+  <text x="750" y="248" text-anchor="middle" font-size="12.5" fill="#6b6b6b">system rereads itself</text>
+
+  <line x1="282" y1="235" x2="346" y2="235" stroke="#008AFF" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="572" y1="235" x2="636" y2="235" stroke="#008AFF" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- Feedback loop -->
+  <path d="M 750,282 C 750,400 170,400 170,282" fill="none" stroke="#008AFF" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <text x="460" y="410" text-anchor="middle" font-size="12.5" fill="#6b6b6b">feeds back into next month's plan</text>
+
+  <!-- Who runs it -->
+  <text x="460" y="452" text-anchor="middle" font-size="13" font-weight="600" fill="#2b2b2b" letter-spacing="0.5">WHO RUNS IT</text>
+
+  <rect x="150" y="466" width="260" height="80" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
+  <text x="280" y="498" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">SHELDON</text>
+  <text x="280" y="518" text-anchor="middle" font-size="12.5" fill="#6b6b6b">structured inquiry, routing</text>
+
+  <rect x="510" y="466" width="260" height="80" rx="10" fill="#F7F7F7" stroke="#EAEAEA" stroke-width="1.5"/>
+  <text x="640" y="498" text-anchor="middle" font-size="16" font-weight="600" fill="#2b2b2b">SNAPE</text>
+  <text x="640" y="518" text-anchor="middle" font-size="12.5" fill="#6b6b6b">accountability, goal drift</text>
+
+  <line x1="300" y1="466" x2="320" y2="288" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrowGrey)"/>
+  <line x1="640" y1="466" x2="558" y2="108" stroke="#9a9a9a" stroke-width="1.5" stroke-dasharray="4 4" marker-end="url(#arrowGrey)"/>
+</svg>
