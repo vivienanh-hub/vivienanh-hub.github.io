@@ -40,8 +40,12 @@ A learning plan sets the knowledge domains. A structured log records every sessi
 **The pattern feedback.**
 This is the part that actually makes it a school instead of a pile of tools: `/weekly-review` tracks every exam result against a Spaced Retrieval Schedule. Pass, and the re-test date pushes out two or three weeks. Miss, and it pulls back in to about a week. Nothing decays quietly — the schedule itself is the evidence of what you actually know versus what you passed once and forgot.
 
+For example: pass `/exam RAG` cold, and its re-test pushes out three weeks. Fail `/exam LLM evaluation design` the same week, and that topic's re-test pulls in to about a week — RAG's schedule doesn't move, because it isn't the topic that's shaky. Two topics, two separate signals, not one averaged "how am I doing" feeling.
+
 **The pattern layer.**
 Zoom out from any single topic and the system builds a memory of you over time — your learning style, your recurring blind spots, where you tend to skip the hard part. A monthly `/calibrate` run reads everything and updates the system itself — adjusting how the tutors respond, what the curriculum should prioritise, where the gaps have opened up.
+
+For example: four straight weeks where topics pass on the first exam attempt but come back "fired" — failed — on their own re-test. That's not a knowledge problem, it's a testing problem: the first pass was recognition, not retention. Calibrate would catch the trend and shorten the default first re-test window from three weeks to ten days, rather than let the same gap resurface every month unnamed.
 
 **The horizon scan.**
 Once a month, `/horizon-scan` looks outward — what's moving in the field, what's noise, what warrants real attention. The output is Act / Watch / Noise triage. You stay current without drowning in feeds.
