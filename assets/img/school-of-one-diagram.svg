@@ -20,9 +20,9 @@
   <!-- ===== connectors (drawn first, under the cards) ===== -->
 
   <!-- horizon scan -> curriculum -->
-  <path d="M130,132 Q108,175 165,206" fill="none" stroke="#E8930A" stroke-width="1.75" marker-end="url(#arrowAmber)"/>
+  <path d="M130,136 Q108,178 165,206" fill="none" stroke="#E8930A" stroke-width="1.75" marker-end="url(#arrowAmber)"/>
   <!-- goal review -> exams -->
-  <path d="M460,132 Q460,170 460,206" fill="none" stroke="#E8930A" stroke-width="1.75" marker-end="url(#arrowAmber)"/>
+  <path d="M460,136 Q460,172 460,206" fill="none" stroke="#E8930A" stroke-width="1.75" marker-end="url(#arrowAmber)"/>
   <!-- core loop -->
   <line x1="282" y1="260" x2="346" y2="260" stroke="#008AFF" stroke-width="2.5" marker-end="url(#arrowBlue)"/>
   <line x1="572" y1="260" x2="636" y2="260" stroke="#008AFF" stroke-width="2.5" marker-end="url(#arrowBlue)"/>
@@ -31,24 +31,24 @@
   <!-- sheldon -> curriculum/exams -->
   <path d="M280,488 Q300,400 322,314" fill="none" stroke="#8B5CF6" stroke-width="1.75" marker-end="url(#arrowPlum)"/>
   <!-- snape -> goal review -->
-  <path d="M640,488 Q610,300 560,134" fill="none" stroke="#8B5CF6" stroke-width="1.75" marker-end="url(#arrowPlum)"/>
+  <path d="M640,488 Q612,300 562,138" fill="none" stroke="#8B5CF6" stroke-width="1.75" marker-end="url(#arrowPlum)"/>
 
   <text x="460" y="500" text-anchor="middle" font-size="12" font-weight="600" fill="#9a9a9a" letter-spacing="0.5">WHO RUNS IT</text>
 
   <!-- ===== cards ===== -->
 
   <!-- Horizon scan -->
-  <rect x="20" y="40" width="220" height="92" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
+  <rect x="10" y="40" width="240" height="96" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
   <circle cx="130" cy="66" r="15" fill="#FFF3DF"/>
   <g stroke="#E8930A" fill="none" stroke-width="2" stroke-linecap="round">
     <circle cx="128" cy="64" r="5" fill="none"/>
     <line x1="132" y1="68" x2="137" y2="73"/>
   </g>
   <text x="130" y="97" text-anchor="middle" font-size="15.5" font-weight="600" fill="#2b2b2b">Horizon scan</text>
-  <text x="130" y="116" text-anchor="middle" font-size="12" fill="#767676">monthly outward field scan</text>
+  <text x="130" y="117" text-anchor="middle" font-size="11.5" fill="#767676">monthly field scan</text>
 
   <!-- Goal review -->
-  <rect x="350" y="40" width="220" height="92" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
+  <rect x="340" y="40" width="240" height="96" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
   <circle cx="460" cy="66" r="15" fill="#FFF3DF"/>
   <g stroke="#E8930A" fill="none" stroke-width="1.6">
     <circle cx="460" cy="66" r="8"/>
@@ -56,7 +56,7 @@
   </g>
   <circle cx="460" cy="66" r="1.5" fill="#E8930A"/>
   <text x="460" y="97" text-anchor="middle" font-size="15.5" font-weight="600" fill="#2b2b2b">Goal review</text>
-  <text x="460" y="116" text-anchor="middle" font-size="12" fill="#767676">quarterly — still on target?</text>
+  <text x="460" y="117" text-anchor="middle" font-size="11.5" fill="#767676">quarterly checkpoint</text>
 
   <!-- Curriculum -->
   <rect x="60" y="210" width="220" height="100" rx="14" fill="#FFFFFF" stroke="#F0F0F0" filter="url(#cardShadow)"/>
