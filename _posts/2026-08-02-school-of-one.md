@@ -113,6 +113,6 @@ The private repo holds my personal data — memory files, session journals, care
 
 **[school-of-one on GitHub](https://github.com/vivienanh-hub/school-of-one)**
 
-Install Claude Code, fork the repo, bring your own goals.
+Install Claude Code, fork the repo, bring your own goals. What you end up with is the thing most learning setups never produce: a record of what you've actually proved, separate from what you've only read.
 
-It won't make you learn faster. What it takes away is your ability to stay vague with yourself — the schedule knows which topics you've proved and which ones you've only read about, and it doesn't care how busy the week was. That's the entire point.
+The school is yours to enrol in.
