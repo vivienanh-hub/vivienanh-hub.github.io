@@ -62,7 +62,8 @@ Three steps, roughly:
 
 1. **Fork it.** [school-of-one](https://github.com/vivienanh-hub/school-of-one) is the public skill library — copy the `.claude/commands/` folder into your own workspace repo, or just fork the whole thing and work inside it.
 2. **Tell it who you are.** Fill in a `CLAUDE.md` and a short goal file — your current target, your three-year direction, the life the career is meant to fund. Every skill reads this before it answers, so this file is what makes the advice specific to you instead of generic.
-3. **Start with `/sheldon`.** Ask it something you're actually stuck on — it routes you to `/learn`, `/exam`, or wherever the real work is. Once you're in motion, the rest runs on its own schedule: `/horizon-scan` monthly, `/goal-review` quarterly, `/calibrate` rereading your patterns in between.
+3. **Start with `/sheldon`.** Ask it something you're actually stuck on — it routes you to `/learn`, `/exam`, or wherever the real work is.
+4. **Wire up the schedule, if you want the forcing function.** `/horizon-scan` monthly, `/weekly-review` weekly, `/goal-review` quarterly, `/calibrate` in between — none of that happens on its own unless something makes it. The repo ships a small `automation/` layer for this: a queue script per skill plus a watcher process, so a cron job creates the GitHub issue and the watcher runs the skill headlessly, no one at the keyboard. Optional, but it's the difference between a system you remember to use and one that runs whether you remember or not.
 
 Full setup — folder structure, GitHub labels, the exact files to fill in — is in [INSTALL.md](https://github.com/vivienanh-hub/school-of-one/blob/main/INSTALL.md).
 
