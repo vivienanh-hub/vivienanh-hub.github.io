@@ -31,68 +31,20 @@ The system lives in a GitHub repository. It runs on [Claude Code](https://claude
 `/sheldon` is the head of the school — a systematic thinker who facilitates structured inquiry, routes you to the right learning mode, and won't let you stay comfortable with vague thinking.
 `/snape` is the demanding life coach. He asks the questions you've been avoiding — about your goals, your real target, whether the work you're doing actually serves the direction you said you wanted to go.
 
-<div class="term-card"><div class="term-header"><span class="term-dot red"></span><span class="term-dot yellow"></span><span class="term-dot green"></span><span class="term-label">sheldon + snape</span></div><div class="term-body" markdown="1">
-<span class="prompt">$</span> **/sheldon** what does it mean to be an AI PM in 2026?
-
-Before I answer — what have you actually *shipped* that used AI, versus what have you *read about*? Those are different questions, and most people answer the second one when asked the first.
-
-<span class="prompt">$</span> **/snape**
-
-You said this quarter was about landing a Senior PM interview loop. It's week 9. Show me the applications — not the plan, the applications.
-</div></div>
-
 **The curriculum.**
 A learning plan sets the knowledge domains. A structured log records every session: source, takeaway, what I applied it to. Not a reading list — a receipt of actual learning.
-
-<div class="term-card"><div class="term-header"><span class="term-dot red"></span><span class="term-dot yellow"></span><span class="term-dot green"></span><span class="term-label">learn</span></div><div class="term-body" markdown="1">
-<span class="prompt">$</span> **/learn** RAG and vector search
-
-<span class="muted">Source logged. Takeaway: retrieval swaps "the model already knows" for "the model can look it up" — changes what you evaluate. Applied to: added to learning-plan.md under AI Product Fundamentals.</span>
-</div></div>
 
 **The exams.**
 `/exam` is a Socratic knowledge test. It won't give you the answer. It will probe until it finds the edge of what you actually know versus what you think you know. The distinction matters.
 
-<div class="term-card"><div class="term-header"><span class="term-dot red"></span><span class="term-dot yellow"></span><span class="term-dot green"></span><span class="term-label">exam · RAG</span></div><div class="term-body" markdown="1">
-<span class="prompt">$</span> **/exam** RAG
-
-Sheldon: Explain the core architecture of a RAG system — the three main components — then tell me what problem RAG solves that a vanilla LLM cannot. No notes.
-
-<span class="muted">Pass. The retrieval → context injection → generation loop is correctly described. Minor note: you didn't name vector similarity search explicitly.</span>
-
-<span class="muted">Progress file updated. Retrieval rep scheduled: re-test in 3 weeks.</span>
-</div></div>
-
 **The pattern layer.**
 The system builds a memory of you over time. It knows your learning style, your knowledge gaps, your recurring blind spots. A monthly `/calibrate` run reads everything and updates the system itself — adjusting how the tutors respond, what the curriculum should prioritise, where the gaps have opened up.
-
-<div class="term-card"><div class="term-header"><span class="term-dot red"></span><span class="term-dot yellow"></span><span class="term-dot green"></span><span class="term-label">calibrate</span></div><div class="term-body" markdown="1">
-<span class="prompt">$</span> **/calibrate**
-
-<span class="muted">Reviewed 6 weeks of sessions. Pattern: exams pass on first attempt, but retrieval reps get skipped before they're due. Adjusting: exam.md now schedules the rep before the topic goes cold, not after.</span>
-</div></div>
 
 **The horizon scan.**
 Once a month, `/horizon-scan` looks outward — what's moving in the field, what's noise, what warrants real attention. The output is Act / Watch / Noise triage. You stay current without drowning in feeds.
 
-<div class="term-card"><div class="term-header"><span class="term-dot red"></span><span class="term-dot yellow"></span><span class="term-dot green"></span><span class="term-label">horizon-scan · 2026-06</span></div><div class="term-body" markdown="1">
-<span class="prompt">$</span> **/horizon-scan**
-
-**Act** — Evaluation literacy in JDs: two VP-level roles now list "designing LLM evaluations" as a requirement, not a nice-to-have. Routed to learning-plan.md, priority: high.
-
-**Watch** — "AI product experience" in 60% of senior PM JDs sampled; framing still loose.
-
-**Noise** — Prompt caching guides. Already commoditized.
-</div></div>
-
 **The goal review.**
 Every quarter, `/goal-review` — led by Snape — asks whether your north star has drifted, whether the work you're doing reflects what you said you wanted, and whether the targets need to change. Schools have graduation requirements. This is the checkpoint.
-
-<div class="term-card"><div class="term-header"><span class="term-dot red"></span><span class="term-dot yellow"></span><span class="term-dot green"></span><span class="term-label">goal-review · Q2</span></div><div class="term-body" markdown="1">
-<span class="prompt">$</span> **/goal-review**
-
-Snape: Your Now Goal says "Senior PM, AI-fluent." Your last six weeks say "learning AI, not applying it." Which one is actually true — and if it's the second, is the goal wrong, or is the behaviour wrong?
-</div></div>
 
 ---
 
