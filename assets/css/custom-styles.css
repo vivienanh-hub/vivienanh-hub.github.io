@@ -77,6 +77,40 @@ h2 {
   }
 }
 
+/* --- Latest notes list (homepage) --- */
+
+.note-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 1.5rem;
+}
+
+.note-list li {
+  padding: 0.9rem 0;
+  border-top: 1px solid #EAEAEA;
+}
+
+.note-list li:last-child {
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.note-list a {
+  font-weight: 600;
+}
+
+.note-date {
+  display: block;
+  margin-top: 0.15rem;
+  font-size: 0.9rem;
+  color: #737373;
+}
+
+.note-sub {
+  margin: 0.4rem 0 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
 /* --- Experience page --- */
 
 .role-title {

@@ -27,26 +27,21 @@ These days I'm also exploring how AI can make product work better — starting w
 **Marketplace Products.** Buyer-seller dynamics, inventory workflows, discovery mechanics — built from scratch and evolved across automotive, classifieds and B2B. I've led a certified-car marketplace from concept to launch, spanning both owned and partner inventory.
 {: .bring-card}
 
-**Changing what the team optimised for.** On a car marketplace, I shifted how the team measured leads — from aggregate volume to distribution by car segment. Making per-segment gaps visible changed what the team worked on next: same funnel, different question.
-{: .bring-card}
-
 **Enterprise & B2B.** Demos, discovery sessions and onboarding materials that get non-technical stakeholders bought in across long enterprise sales cycles, and enablement delivered across multiple SEA markets and teams at once.
 {: .bring-card}
 
-**Leading product teams.** I've led and mentored a team of PMs, product analysts and a designer across four verticals, and built the prioritization and accountability framework that gave one monetization workgroup clear decision ownership while pulled across competing vertical demands.
-{: .bring-card}
-
 </div>
 
-## What I'm building
+## Latest notes
 
-I use AI on my own PM work before I recommend it for anyone else's — and publish what I find, including the parts that broke.
+<ul class="note-list">
+{% for post in site.posts limit: 3 %}
+  <li>
+    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+    <span class="note-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+    {% if post.subtitle %}<p class="note-sub">{{ post.subtitle }}</p>{% endif %}
+  </li>
+{% endfor %}
+</ul>
 
-<div class="bring-grid" markdown="1">
-
-**[In order to help me learn, it had to understand me well](/2026-08-02-learning-loop/).** A study system built on Claude Code that plans my week, grades me closed-book with a separate judge, and names patterns in how I work that I couldn't see myself. Includes the failure worth naming: an AI judge that invented a rubric on the spot rather than refusing. Public and forkable.
-{: .bring-card}
-
-</div>
-
-[More notes &rarr;](/notes) &nbsp;·&nbsp; [All projects &rarr;](/projects)
+[All notes &rarr;](/notes) &nbsp;·&nbsp; [Projects &rarr;](/projects)
