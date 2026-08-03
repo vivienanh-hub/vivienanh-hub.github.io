@@ -53,7 +53,7 @@ The fix was structural, not a patch. A topic with no lesson behind it now trigge
 
 I think there are many self-taught learners, and lifelong learners, who would like virtual tutors that understand them well, keep them in check, and grow together with them. Who would like some discipline boost, and a learning system that keeps learning and improving.
 
-If that's you, the repo is [on GitHub](https://github.com/vivienanh-hub/learning-loop) with setup in INSTALL.md. It's shaped around product management because that's my work, but nothing in the structure knows what subject it's carrying.
+If that's you, the repo is [on GitHub](https://github.com/vivienanh-hub/learning-loop) with setup in INSTALL.md. It's shaped around product management because that's my work, but nothing in the structure depends on the subject. Swap the study plan and it runs on anything.
 
 Every session is a GitHub issue — the question in the body, labels for status and model, the verdict landing as a comment. Here's a [fabricated example](https://github.com/vivienanh-hub/learning-loop/issues/1) of one, closed-book exam included:
 
