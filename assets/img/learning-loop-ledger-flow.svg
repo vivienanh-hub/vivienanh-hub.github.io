@@ -1,0 +1,74 @@
+<svg viewBox="0 0 730 600" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ledTitle ledDesc" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title id="ledTitle">From studied to complete</title>
+  <desc id="ledDesc">A topic is studied, then closed-book examined by a separate judge. A pass moves it to studied, not applied. It only becomes complete after a second exam — a paragraph on a real product decision — is also passed. Failing either exam returns to the same exam with the next question, not a pause.</desc>
+
+  <defs>
+    <marker id="ledArrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8578"/>
+    </marker>
+    <marker id="ledArrowFail" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#b0aa9a"/>
+    </marker>
+    <filter id="ledShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#1a1a1a" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+
+  <!-- Study a topic -->
+  <rect x="90" y="24" width="460" height="56" rx="12" fill="#ffffff" stroke="#eeece4" filter="url(#ledShadow)"/>
+  <text x="320" y="58" text-anchor="middle" font-size="15" font-weight="700" fill="#0b0b0b">Study a topic</text>
+
+  <line x1="320" y1="80" x2="320" y2="118" stroke="#8a8578" stroke-width="2" marker-end="url(#ledArrow)"/>
+
+  <!-- Closed-book exam -->
+  <rect x="70" y="124" width="500" height="100" rx="14" fill="#ffffff" stroke="#eeece4" filter="url(#ledShadow)"/>
+  <circle cx="104" cy="152" r="14" fill="#e8f0fc"/>
+  <rect x="98" y="150" width="12" height="9" rx="2" fill="none" stroke="#3987e5" stroke-width="1.8"/>
+  <path d="M100,150 v-3 a4,4 0 0 1 8,0 v3" fill="none" stroke="#3987e5" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="128" y="157" font-size="15.5" font-weight="700" fill="#0b0b0b">Closed-book exam</text>
+  <text x="104" y="184" font-size="12.5" fill="#52514e">Graded by a separate judge — it sees the question,</text>
+  <text x="104" y="202" font-size="12.5" fill="#52514e">the marking notes, and my answer. Never the conversation.</text>
+
+  <!-- Fail loop on exam 1 -->
+  <path d="M 574,204 C 610,204 610,144 574,144" fill="none" stroke="#b0aa9a" stroke-width="1.75" stroke-dasharray="1 5" stroke-linecap="round" marker-end="url(#ledArrowFail)"/>
+  <text x="622" y="178" font-size="11.5" fill="#8a8578">Fail — next</text>
+  <text x="622" y="193" font-size="11.5" fill="#8a8578">question,</text>
+  <text x="622" y="208" font-size="11.5" fill="#8a8578">same turn</text>
+
+  <line x1="320" y1="224" x2="320" y2="262" stroke="#8a8578" stroke-width="2" marker-end="url(#ledArrow)"/>
+  <text x="336" y="248" font-size="12" font-weight="600" fill="#767368">Pass</text>
+
+  <!-- State: studied, not applied -->
+  <rect x="140" y="268" width="360" height="56" rx="28" fill="#fffaf0" stroke="#f3e2b8"/>
+  <circle cx="176" cy="296" r="7" fill="none" stroke="#c98500" stroke-width="2"/>
+  <path d="M176,289 A7,7 0 0 1 176,303" fill="#c98500" stroke="none"/>
+  <text x="196" y="301" font-size="14.5" font-weight="700" fill="#0b0b0b">Studied, not applied</text>
+
+  <line x1="320" y1="324" x2="320" y2="362" stroke="#8a8578" stroke-width="2" marker-end="url(#ledArrow)"/>
+  <text x="336" y="348" font-size="11.5" fill="#767368">spent on a real decision</text>
+
+  <!-- Applied exam -->
+  <rect x="70" y="368" width="500" height="100" rx="14" fill="#ffffff" stroke="#eeece4" filter="url(#ledShadow)"/>
+  <circle cx="104" cy="396" r="14" fill="#e8f0fc"/>
+  <line x1="98" y1="391" x2="110" y2="391" stroke="#3987e5" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="98" y1="396" x2="110" y2="396" stroke="#3987e5" stroke-width="1.8" stroke-linecap="round"/>
+  <line x1="98" y1="401" x2="106" y2="401" stroke="#3987e5" stroke-width="1.8" stroke-linecap="round"/>
+  <text x="128" y="401" font-size="15.5" font-weight="700" fill="#0b0b0b">Applied exam</text>
+  <text x="104" y="428" font-size="12.5" fill="#52514e">A paragraph on a real, named product decision —</text>
+  <text x="104" y="446" font-size="12.5" fill="#52514e">the constraint, the alternative rejected, the tradeoff.</text>
+
+  <!-- Fail loop on exam 2 -->
+  <path d="M 574,448 C 610,448 610,388 574,388" fill="none" stroke="#b0aa9a" stroke-width="1.75" stroke-dasharray="1 5" stroke-linecap="round" marker-end="url(#ledArrowFail)"/>
+  <text x="622" y="422" font-size="11.5" fill="#8a8578">Fail — next</text>
+  <text x="622" y="437" font-size="11.5" fill="#8a8578">question,</text>
+  <text x="622" y="452" font-size="11.5" fill="#8a8578">same turn</text>
+
+  <line x1="320" y1="468" x2="320" y2="506" stroke="#8a8578" stroke-width="2" marker-end="url(#ledArrow)"/>
+  <text x="336" y="492" font-size="12" font-weight="600" fill="#767368">Pass</text>
+
+  <!-- State: complete -->
+  <rect x="140" y="512" width="360" height="56" rx="28" fill="#f0faf0" stroke="#bfe6bf"/>
+  <circle cx="176" cy="540" r="9" fill="#0ca30c"/>
+  <path d="M171,540 l4,4 l8,-9" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="196" y="545" font-size="14.5" font-weight="700" fill="#0b0b0b">Complete</text>
+</svg>

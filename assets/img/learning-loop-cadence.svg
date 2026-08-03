@@ -1,0 +1,55 @@
+<svg viewBox="0 0 1000 480" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cadTitle cadDesc" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <title id="cadTitle">The four cadences</title>
+  <desc id="cadDesc">Daily tracking feeds a weekly plan; a monthly scan looks outward for what should change; a quarterly review checks whether the goal itself still holds. What the monthly and quarterly cadences find routes back down into the weekly plan.</desc>
+
+  <defs>
+    <filter id="cadShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#1a1a1a" flood-opacity="0.08"/>
+    </filter>
+    <marker id="cadArrow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#8a8578"/>
+    </marker>
+    <marker id="cadArrowFeedback" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="5.5" markerHeight="5.5" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#9a958a"/>
+    </marker>
+  </defs>
+
+  <!-- stepper spine -->
+  <line x1="46" y1="82" x2="46" y2="394" stroke="#d8d4c8" stroke-width="2"/>
+  <line x1="46" y1="82" x2="46" y2="186" stroke="#8a8578" stroke-width="2" marker-end="url(#cadArrow)"/>
+  <line x1="46" y1="186" x2="46" y2="290" stroke="#8a8578" stroke-width="2" marker-end="url(#cadArrow)"/>
+  <line x1="46" y1="290" x2="46" y2="394" stroke="#8a8578" stroke-width="2" marker-end="url(#cadArrow)"/>
+
+  <!-- feedback: what monthly + quarterly find routes back into the weekly plan -->
+  <path d="M 770,340 C 850,340 850,186 774,186" fill="none" stroke="#9a958a" stroke-width="1.75" stroke-dasharray="1 5" stroke-linecap="round" marker-end="url(#cadArrowFeedback)"/>
+  <text x="860" y="264" text-anchor="start" font-size="11.5" fill="#767368">routes into</text>
+  <text x="860" y="280" text-anchor="start" font-size="11.5" fill="#767368">the weekly plan</text>
+
+  <!-- DAILY -->
+  <rect x="76" y="40" width="694" height="84" rx="14" fill="#ffffff" stroke="#eeece4" filter="url(#cadShadow)"/>
+  <rect x="76" y="40" width="8" height="84" rx="4" fill="#86b6ef"/>
+  <circle cx="46" cy="82" r="7" fill="#86b6ef"/>
+  <text x="112" y="72" font-size="16.5" font-weight="700" fill="#0b0b0b">Daily</text>
+  <text x="112" y="96" font-size="13" fill="#52514e">Watches what I did, and how I answered.</text>
+
+  <!-- WEEKLY -->
+  <rect x="76" y="144" width="694" height="84" rx="14" fill="#ffffff" stroke="#eeece4" filter="url(#cadShadow)"/>
+  <rect x="76" y="144" width="8" height="84" rx="4" fill="#3987e5"/>
+  <circle cx="46" cy="186" r="7" fill="#3987e5"/>
+  <text x="112" y="176" font-size="16.5" font-weight="700" fill="#0b0b0b">Weekly</text>
+  <text x="112" y="200" font-size="13" fill="#52514e">Sets the plan, tests what I've learned, checks whether it's applied.</text>
+
+  <!-- MONTHLY -->
+  <rect x="76" y="248" width="694" height="84" rx="14" fill="#ffffff" stroke="#eeece4" filter="url(#cadShadow)"/>
+  <rect x="76" y="248" width="8" height="84" rx="4" fill="#1c5cab"/>
+  <circle cx="46" cy="290" r="7" fill="#1c5cab"/>
+  <text x="112" y="280" font-size="16.5" font-weight="700" fill="#0b0b0b">Monthly</text>
+  <text x="112" y="304" font-size="13" fill="#52514e">Scans outward — sorts what's new into Noise, Watch, or Act.</text>
+
+  <!-- QUARTERLY -->
+  <rect x="76" y="352" width="694" height="84" rx="14" fill="#ffffff" stroke="#eeece4" filter="url(#cadShadow)"/>
+  <rect x="76" y="352" width="8" height="84" rx="4" fill="#0d366b"/>
+  <circle cx="46" cy="394" r="7" fill="#0d366b"/>
+  <text x="112" y="384" font-size="16.5" font-weight="700" fill="#0b0b0b">Quarterly</text>
+  <text x="112" y="408" font-size="13" fill="#52514e">Asks whether the goal itself still holds.</text>
+</svg>

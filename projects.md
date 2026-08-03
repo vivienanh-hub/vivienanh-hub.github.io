@@ -8,7 +8,7 @@ This page is where I collect the GitHub projects that make up my PM stack — th
 
 <div class="bring-grid" markdown="1">
 
-**[school-of-one](https://github.com/vivienanh-hub/school-of-one).** An AI-assisted learning system built on [Claude Code](https://claude.ai/code) — tutors, a Socratic exam engine, a memory layer that tracks my patterns, and monthly/quarterly reviews that keep the curriculum pointed at a real goal. Public and forkable. [Read the write-up &rarr;](/2026-08-02-school-of-one/)
+**[learning-loop](https://github.com/vivienanh-hub/learning-loop).** An AI-assisted learning system built on [Claude Code](https://claude.ai/code) — tutors, a Socratic exam engine, a memory layer that tracks my patterns, and monthly/quarterly reviews that keep the curriculum pointed at a real goal. Public and forkable. [Read the write-up &rarr;](/2026-08-02-learning-loop/)
 {: .bring-card}
 
 </div>
