@@ -76,3 +76,21 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
+/* --- Experience page --- */
+
+.role-title {
+  margin-bottom: 0.15rem;
+  font-size: 1.45rem;
+}
+
+.role-meta {
+  margin: 0 0 0.6rem;
+  font-size: 0.95rem;
+  color: #737373;
+  letter-spacing: 0.01em;
+}
+
+.role-meta + ul {
+  margin-bottom: 2rem;
+}

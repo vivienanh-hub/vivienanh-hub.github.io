@@ -4,7 +4,7 @@ title: Projects
 subtitle: PM tooling I've built to run my own work
 ---
 
-This page is where I collect the GitHub projects that make up my PM stack — the tools and systems I've built to run product work, job search, and learning.
+I use AI on my own product work before I recommend it for anyone else's. These are the tools I've built to run that work — and the write-ups covering what held and what broke.
 
 <div class="bring-grid" markdown="1">
 

@@ -21,6 +21,7 @@ author: Van Anh Nguyen
 
 navbar-links:
   Home: "/"
+  Experience: "experience"
   Projects: "projects"
   Notes: "notes"
   Contact: "contact"
