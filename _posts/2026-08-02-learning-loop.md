@@ -31,7 +31,7 @@ I've discovered many things I was unaware of before.
 
 An avoidance pattern in disguise. Or that I correctly give the right category name and stop there, rather than going into the details.
 
-Neither of those is something I could have told you about myself. Each individual instance looked reasonable. The system found them because it keeps a record: when a behaviour shows up across three or more sessions, it gets promoted from a session note into a named pattern with a row of its own, and the row tracks who noticed it — whether I caught it myself, whether a tutor named it for me, or whether I only found out when something went wrong.
+Neither of those is something I could have told you about myself. Each individual instance looked reasonable. The system found them because it keeps a record: when a behaviour shows up across three or more sessions, it gets promoted from a session note into a named pattern with a row of its own, and the row tracks who noticed it — whether I caught it myself, whether a tutor named it for me, or whether I only found out when something went wrong. Here's a [fabricated example](https://github.com/vivienanh-hub/learning-loop/issues/2) of a weekly review catching that third occurrence and promoting it.
 
 The tutors read that record before they say anything, which is why the advice isn't generic. One rule now tells the system to frame my learning deliverable as the artifact rather than the session, because the record showed I reliably finish sessions and don't produce artifacts. I didn't write that rule. The system proposed it and I approved it.
 
@@ -55,9 +55,11 @@ I think there are many self-taught learners, and lifelong learners, who would li
 
 If that's you, the repo is [on GitHub](https://github.com/vivienanh-hub/learning-loop) with setup in INSTALL.md. It's shaped around product management because that's my work, but nothing in the structure knows what subject it's carrying.
 
-## What isn't there yet
+Every session is a GitHub issue — the question in the body, labels for status and model, the verdict landing as a comment. Here's a [fabricated example](https://github.com/vivienanh-hub/learning-loop/issues/1) of one, closed-book exam included:
 
-I use GitHub issues as the UI, which may not be friendly to some yet.
+![A closed GitHub issue titled "[Exam] RAG — Attempt 1", labelled agent:status:done and model:sonnet, showing the exam question in the issue body, the answer and Pass verdict as comments below it.](/assets/img/learning-loop-issue-example.png)
+
+## What isn't there yet
 
 There's a dashboard for visualising progress that I'm working on. It isn't in this version.
 
