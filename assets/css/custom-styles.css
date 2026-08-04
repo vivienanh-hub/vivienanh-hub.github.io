@@ -111,6 +111,18 @@ h2 {
   line-height: 1.5;
 }
 
+/* Theme resets .post-preview a to plain text color, so the
+   "[Read More]" link at the end of an excerpt reads as bold body
+   text rather than something clickable. */
+.post-preview .post-read-more {
+  color: var(--link-col);
+}
+
+.post-preview .post-read-more:hover,
+.post-preview .post-read-more:focus {
+  color: var(--hover-col);
+}
+
 /* --- Experience page --- */
 
 .role-title {
