@@ -1,6 +1,6 @@
 # vivienanh-hub.github.io
 
-Personal site for Van-Anh Nguyen (Vivian) — product management notes, projects, and long-form writing.
+Personal site for Van-Anh Nguyen (Vivian) — product field notes, projects, and long-form writing.
 
 Live at https://vivienanh-hub.github.io
 
@@ -8,7 +8,7 @@ Live at https://vivienanh-hub.github.io
 
 - `index.md` — home / about page
 - `projects.md` — PM tooling and side projects
-- `notes.md` — blog index (`layout: home`), lists posts from `_posts/`
+- `notes.md` — Field Notes index (`layout: home`), lists posts from `_posts/`
 - `contact.md` — contact page
 - `_posts/` — blog posts, named `YYYY-MM-DD-title.md`
 - `redirects/` — static redirect pages for renamed/moved posts

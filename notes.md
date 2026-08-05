@@ -1,5 +1,5 @@
 ---
 layout: home
-title: Notes
-subtitle: On product management, AI, and building a career deliberately
+title: Field Notes
+subtitle: What I notice, decide, and change while using my own systems.
 ---

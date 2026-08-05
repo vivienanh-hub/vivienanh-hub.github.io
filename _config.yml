@@ -23,7 +23,7 @@ navbar-links:
   Home: "/"
   Experience: "experience"
   Projects: "projects"
-  Notes: "notes"
+  Field Notes: "notes"
   Contact: "contact"
 
 ################
@@ -81,7 +81,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: Notes on product management, AI, and building a career deliberately
+rss-description: Field notes on product management, AI, and building a career deliberately
 
 ###########################
 # --- General options --- #
