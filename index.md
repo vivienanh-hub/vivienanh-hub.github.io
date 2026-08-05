@@ -32,7 +32,7 @@ These days I'm also exploring how AI can make product work better — starting w
 
 </div>
 
-## Latest notes
+## Latest field notes
 
 <ul class="note-list">
 {% for post in site.posts limit: 3 %}
@@ -44,4 +44,4 @@ These days I'm also exploring how AI can make product work better — starting w
 {% endfor %}
 </ul>
 
-[All notes &rarr;](/notes) &nbsp;·&nbsp; [Projects &rarr;](/projects)
+[All field notes &rarr;](/notes) &nbsp;·&nbsp; [Projects &rarr;](/projects)
