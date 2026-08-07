@@ -681,11 +681,11 @@ body:has(.home-alt) main.container-md {
 }
 
 .home-alt-section-head h2 {
-  max-width: 780px;
   font-size: 1.89rem;
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: 0;
+  text-wrap: balance;
 }
 
 .home-fresh-timeline {
