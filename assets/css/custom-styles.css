@@ -305,7 +305,7 @@ body:has(.home-alt) .header-section {
 .home-alt-kicker {
   margin: 0 0 0.7rem;
   color: var(--alt-teal);
-  font-size: 0.78rem;
+  font-size: 0.86rem;
   font-weight: 800;
   letter-spacing: 0.08em;
   line-height: 1.2;
@@ -511,7 +511,7 @@ body:has(.home-alt) .header-section {
 
 .home-alt-notes li > a {
   color: var(--alt-ink);
-  font-size: 1.08rem;
+  font-size: 1.19rem;
   font-weight: 800;
   line-height: 1.35;
   text-decoration: none;
@@ -527,7 +527,7 @@ body:has(.home-alt) .header-section {
   display: block;
   margin-top: 0.35rem;
   color: var(--alt-muted);
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 700;
 }
 
@@ -535,7 +535,7 @@ body:has(.home-alt) .header-section {
   max-width: 820px;
   margin: 0.55rem 0 0;
   color: var(--alt-muted);
-  font-size: 0.98rem;
+  font-size: 1.08rem;
 }
 
 .home-alt-text-link::after {
@@ -565,7 +565,7 @@ body:has(.home-alt) .header-section {
   }
 
   .home-alt-section-head h2 {
-    font-size: 1.55rem;
+    font-size: 1.7rem;
   }
 }
 
@@ -642,16 +642,16 @@ body:has(.home-alt) main.container-md {
 
 .home-alt-intro__copy p:not(.home-alt-kicker) {
   color: var(--alt-ink);
-  font-size: 1.16rem;
+  font-size: 1.18rem;
   line-height: 1.62;
 }
 
 .home-alt-actions a,
 .home-alt-text-link {
   border-radius: 999px;
-  min-height: 2.35rem;
-  padding: 0.62rem 0.95rem;
-  font-size: 0.8rem;
+  min-height: 2.5rem;
+  padding: 0.68rem 1.05rem;
+  font-size: 0.95rem;
   font-weight: 700;
 }
 
@@ -682,7 +682,7 @@ body:has(.home-alt) main.container-md {
 
 .home-alt-section-head h2 {
   max-width: 780px;
-  font-size: 1.72rem;
+  font-size: 1.89rem;
   font-weight: 700;
   line-height: 1.22;
   letter-spacing: 0;
@@ -692,23 +692,33 @@ body:has(.home-alt) main.container-md {
   position: relative;
   margin-top: 0.25rem;
   border-top: 0;
+  display: grid;
+  gap: 0.5rem;
 }
 
 .home-fresh-timeline::before {
   content: "";
   position: absolute;
-  top: 1.35rem;
-  bottom: 1.35rem;
-  left: 0.55rem;
-  width: 2px;
+  top: 1.7rem;
+  bottom: 1.7rem;
+  left: 1.18rem;
+  width: 3px;
+  border-radius: 999px;
   background: linear-gradient(180deg, var(--alt-teal), var(--alt-amber), var(--alt-blue), var(--alt-rose));
 }
 
 .home-fresh-timeline .home-alt-milestone {
   grid-template-columns: 12rem minmax(0, 1fr);
   gap: 2rem;
-  padding: 1.35rem 0 1.35rem 2.25rem;
-  border-bottom: 1px solid var(--alt-line);
+  padding: 1.35rem 1.5rem 1.35rem 2.85rem;
+  border-bottom: 0;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--milestone) 5%, transparent);
+  transition: background-color 0.2s ease;
+}
+
+.home-fresh-timeline .home-alt-milestone:hover {
+  background: color-mix(in srgb, var(--milestone) 10%, transparent);
 }
 
 .home-fresh-timeline .home-alt-milestone::before {
@@ -716,21 +726,27 @@ body:has(.home-alt) main.container-md {
 }
 
 .home-fresh-timeline .home-alt-milestone::after {
-  top: 1.55rem;
-  left: 0.05rem;
-  background: #fbfaf6;
+  top: 1.75rem;
+  left: 0.66rem;
+  width: 1.05rem;
+  height: 1.05rem;
+  background: var(--milestone);
+  border: 3px solid var(--alt-panel);
+  box-shadow:
+    0 0 0 1px color-mix(in srgb, var(--milestone) 55%, transparent),
+    0 3px 8px color-mix(in srgb, var(--milestone) 45%, transparent);
 }
 
 .home-fresh-timeline .home-alt-milestone h3 {
   color: var(--milestone);
-  font-size: 1.04rem;
+  font-size: 1.14rem;
   font-weight: 700;
 }
 
 .home-fresh-timeline .home-alt-milestone p {
   max-width: 760px;
   color: var(--alt-muted);
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .home-fresh-project {
@@ -767,7 +783,7 @@ body:has(.home-alt) main.container-md {
 .home-fresh-project-item h3 {
   margin: 0 0 0.45rem;
   color: var(--alt-ink);
-  font-size: 1.15rem;
+  font-size: 1.26rem;
   font-weight: 700;
 }
 
@@ -775,7 +791,7 @@ body:has(.home-alt) main.container-md {
   max-width: 780px;
   margin: 0;
   color: var(--alt-muted);
-  font-size: 1.02rem;
+  font-size: 1.12rem;
   line-height: 1.62;
 }
 
@@ -845,7 +861,7 @@ body:has(.home-alt) main.container-md {
   }
 
   .home-alt-section-head h2 {
-    font-size: 1.55rem;
+    font-size: 1.7rem;
   }
 }
 
