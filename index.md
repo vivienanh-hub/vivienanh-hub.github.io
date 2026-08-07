@@ -1,47 +1,90 @@
 ---
 layout: page
 title: Van-Anh Nguyen
-subtitle: Senior Product Manager | Marketplace | B2B SaaS | AI Products
+subtitle: Senior Product Manager &middot; Marketplaces &middot; B2B SaaS &middot; AI Products
+ext-css:
+  - "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700;800&display=swap"
 ---
 
-![Van Anh Nguyen](/assets/img/VA.jpg){: .profile-photo}
+<div class="home-alt" markdown="0">
 
-I'm a product manager working across marketplaces and B2B software in Southeast Asia. My work covers the full arc of a product — from first concept, through launch, to running as a live commercial business — and includes leading and mentoring product managers, analysts and designers.
+<section class="home-alt-intro home-fresh-intro">
+  <figure class="home-alt-portrait home-fresh-portrait">
+    <img src="/assets/img/VA.jpg" alt="Van Anh Nguyen">
+  </figure>
+  <div class="home-alt-intro__copy">
+    <p>A personal record of product work across software, monetization, marketplaces, and applied AI. Projects and field notes sit beside career history, including work that is still being tested, changed, or understood.</p>
+    <div class="home-alt-actions">
+      <a href="/experience/">Experience</a>
+      <a href="/projects/">Projects</a>
+      <a href="/notes/">Field notes</a>
+    </div>
+  </div>
+</section>
 
-I started out in Agile delivery and business analysis in 2007, moved into product management in 2013, and later added an MSc in Business Information Management from La Trobe University in Melbourne. It's a practical combination: working through implementation detail with engineers, and building the commercial case for the same decision.
+<section class="home-alt-path home-fresh-path">
+  <div class="home-alt-section-head">
+    <p class="home-alt-kicker">Work over time</p>
+    <h2>These are the parts of the path that continue to shape the work.</h2>
+  </div>
 
-These days I'm also exploring how AI can make product work better — starting with my own, and writing up what I find.
+  <div class="home-alt-timeline home-fresh-timeline">
+    <section class="home-alt-milestone home-alt-milestone--teal">
+      <h3>Foundations</h3>
+      <p>Software delivery and business analysis came first, grounding product decisions in workflows, constraints, data, and implementation detail.</p>
+    </section>
 
-[See my experience &rarr;](/experience) &nbsp;·&nbsp; [Let's connect &rarr;](/contact)
+    <section class="home-alt-milestone home-alt-milestone--amber">
+      <h3>Early product work</h3>
+      <p>Roadmaps, workflow design, releases, demos, and onboarding across several B2B products. Product management built on the earlier foundation in delivery and analysis.</p>
+    </section>
 
-## What I bring
+    <section class="home-alt-milestone home-alt-milestone--blue">
+      <h3>Marketplace work</h3>
+      <p>Seller products, monetization, partner programs, and automotive marketplace work, across both individual product and team leadership roles.</p>
+    </section>
 
-<div class="bring-grid" markdown="1">
+    <section class="home-alt-milestone home-alt-milestone--rose">
+      <h3>AI products and practice</h3>
+      <p>AI products viewed through real work: where they help, where they fall short, and what still needs checking.</p>
+    </section>
+  </div>
+</section>
 
-**AI Products.** Translating what a model can and can't reliably do into product decisions, and designing the checks that make AI output trustworthy enough to ship. I've shaped the roadmap for an AI-powered test automation product for enterprise customers, and validated its value in customer onboardings — measured against how long the same work took by hand.
-{: .bring-card}
+<section class="home-alt-project home-fresh-project">
+  <div class="home-alt-section-head">
+    <p class="home-alt-kicker">Projects</p>
+    <h2>Product systems and experiments.</h2>
+  </div>
+  <div class="home-fresh-project-list">
+    <article class="home-fresh-project-item">
+      <h3>Learning Loop</h3>
+      <p>An AI-assisted system for studying over time: planning what to learn, testing understanding, keeping useful memory, and reviewing what changes.</p>
+      <div class="home-alt-actions">
+        <a href="https://github.com/vivienanh-hub/learning-loop">View project</a>
+        <a href="/2026-08-02-learning-loop/">Read note</a>
+      </div>
+    </article>
+  </div>
+</section>
 
-**Monetization & Revenue Growth.** Tiered subscriptions, partner programs, seller segmentation — finding the revenue levers and building the case to pull them. I've owned monetization for private sellers, professional sellers and partners on a classifieds marketplace, and taken a partner program from paperwork to live commercial operation.
-{: .bring-card}
+<section class="home-alt-notes home-fresh-notes">
+  <div class="home-alt-section-head">
+    <p class="home-alt-kicker">Latest field notes</p>
+    <h2>Notes on product work, learning, and AI practice.</h2>
+  </div>
 
-**Marketplace Products.** Buyer-seller dynamics, inventory workflows, discovery mechanics — built from scratch and evolved across automotive, classifieds and B2B. I've led a certified-car marketplace from concept to launch, spanning both owned and partner inventory.
-{: .bring-card}
+  <ul>
+  {% for post in site.posts limit: 3 %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span>{{ post.date | date: "%B %-d, %Y" }}</span>
+      {% if post.subtitle %}<p>{{ post.subtitle }}</p>{% endif %}
+    </li>
+  {% endfor %}
+  </ul>
 
-**Enterprise & B2B.** Demos, discovery sessions and onboarding materials that get non-technical stakeholders bought in across long enterprise sales cycles, and enablement delivered across multiple SEA markets and teams at once.
-{: .bring-card}
+  <a class="home-alt-text-link" href="/notes/">All field notes</a>
+</section>
 
 </div>
-
-## Latest field notes
-
-<ul class="note-list">
-{% for post in site.posts limit: 3 %}
-  <li>
-    <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    <span class="note-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-    {% if post.subtitle %}<p class="note-sub">{{ post.subtitle }}</p>{% endif %}
-  </li>
-{% endfor %}
-</ul>
-
-[All field notes &rarr;](/notes) &nbsp;·&nbsp; [Projects &rarr;](/projects)
